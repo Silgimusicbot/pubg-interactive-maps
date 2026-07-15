@@ -23,14 +23,13 @@ const HeroSection = () => {
     <>
       <Snowfall snowflakeCount={200} />
       <div className="Hero_Container" onMouseMove={handleMouseMove}>
-        <h3>Every Zone. Every Angle. Battle-Ready Maps.</h3>
+        <h3>Made by Huseyn Mammadov.</h3>
         <p>
-          Practice drop zones, rotations, and strategies using interactive maps
-          designed for competitive gameplay.
+          Thank you for using.
         </p>
         <div className="bg-video" id="bfOver" ref={bgref}></div>
         <OpenModal />
-        <button className="BtnGo">Let's Practice</button>
+        <button className="BtnGo">HUSEVN</button>
       </div>
     </>
   );
